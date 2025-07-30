@@ -1,0 +1,37 @@
+[
+    {
+        "questionCategoryId": "0",
+        "questionCategoryName": "Chełmon",
+        "questionId": "0.0",
+        "questionText": "Ile jest lamp w sali informatycznej?",
+        "questionAnswer": "8"
+    },
+    {
+        "questionCategoryId": "0",
+        "questionCategoryName": "Chełmon",
+        "questionId": "0.1",
+        "questionText": "W której pracowni możemy znależć dwa krzyże nad drzwiami?",
+        "questionAnswer": "W sali historycznej"
+    },
+    {
+        "questionCategoryId": "0",
+        "questionCategoryName": "Chełmon",
+        "questionId": "0.2",
+        "questionText": "Ile jest globusów w pracowni geograficznej?",
+        "questionAnswer": "15"
+    },
+    {
+        "questionCategoryId": "0",
+        "questionCategoryName": "Chełmon",
+        "questionId": "0.3",
+        "questionText": "Ile ławek dla uczniów znajduje się w sali fizycznej?",
+        "questionAnswer": "10"
+    },
+    {
+        "questionCategoryId": "0",
+        "questionCategoryName": "Chełmon",
+        "questionId": "0.4",
+        "questionText": "Co znajduje się w sali 92 i 93?",
+        "questionAnswer": "Składzik chemiczny"
+    }
+]

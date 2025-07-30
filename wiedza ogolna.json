@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "16",
+        "questionCategoryName": "Wiedza ogólna",
+        "questionId": "16.0",
+        "questionText": "Jak nazywa się aktualny prezydent RP?",
+        "questionAnswer": "Andrzej Duda"
+    },
+    {
+        "questionCategoryId": "16",
+        "questionCategoryName": "Wiedza ogólna",
+        "questionId": "16.1",
+        "questionText": "Kto znajduje się na banknocie 100zł?",
+        "questionAnswer": "Władysław Jagiełło"
+    }
+]

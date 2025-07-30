@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "9",
+        "questionCategoryName": "Ciekawostki",
+        "questionId": "9.0",
+        "questionText": "W jakim kraju znajduje się słynna galeria i muzeum Uffizi?",
+        "questionAnswer": "we Włoszech"
+    },
+    {
+        "questionCategoryId": "9",
+        "questionCategoryName": "Ciekawostki",
+        "questionId": "9.1",
+        "questionText": "Używanie jakiego środka transportu zabronione jest na kenijskiej wyspie Lamu?",
+        "questionAnswer": "Samochodów"
+    }
+]

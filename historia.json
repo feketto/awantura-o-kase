@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "2",
+        "questionCategoryName": "Historia",
+        "questionId": "2.0",
+        "questionText": "Ile lat trwało robicie dzielnicowe w Polsce? Można pomylić się o 10 lat.",
+        "questionAnswer": "182"
+    },
+    {
+        "questionCategoryId": "2",
+        "questionCategoryName": "Historia",
+        "questionId": "2.1",
+        "questionText": " Z jakiej dynastii wywodził się Mieszko III Stary?",
+        "questionAnswer": "Piastów"
+    }
+]

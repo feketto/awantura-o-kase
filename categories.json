@@ -1,0 +1,93 @@
+[
+    {
+        "categoryId": "0",
+        "categoryName": "Chełmon",
+        "categorySrc": "chelmon"
+    },
+    {
+        "categoryId": "1",
+        "categoryName": "Biologia",
+        "categorySrc": "biologia"
+    },
+    {
+        "categoryId": "2",
+        "categoryName": "Historia",
+        "categorySrc": "historia"
+    },
+    {
+        "categoryId": "3",
+        "categoryName": "Sport",
+        "categorySrc": "sport"
+    },
+    {
+        "categoryId": "4",
+        "categoryName": "j. Polski",
+        "categorySrc": "polski"
+    },
+    {
+        "categoryId": "5",
+        "categoryName": "Geografia",
+        "categorySrc": "geografia"
+    },
+    {
+        "categoryId": "6",
+        "categoryName": "Kulinaria",
+        "categorySrc": "kulinaria"
+    },
+    {
+        "categoryId": "7",
+        "categoryName": "Wędkarstwo",
+        "categorySrc": "wedkarstwo"
+    },
+    {
+        "categoryId": "8",
+        "categoryName": "Co to jest?",
+        "categorySrc": "ctj"
+    },
+    {
+        "categoryId": "9",
+        "categoryName": "Ciekawostki",
+        "categorySrc": "ciekawostki"
+    },
+    {
+        "categoryId": "10",
+        "categoryName": "Filozofia",
+        "categorySrc": "filozofia"
+    },
+    {
+        "categoryId": "11",
+        "categoryName": "Muzyka",
+        "categorySrc": "muzyka"
+    },
+    {
+        "categoryId": "12",
+        "categoryName": "Matematyka",
+        "categorySrc": "matematyka"
+    },
+    {
+        "categoryId": "13",
+        "categoryName": "Fizyka",
+        "categorySrc": "fizyka"
+    },
+    {
+        "categoryId": "14",
+        "categoryName": "Czarna skrzynka",
+        "categorySrc": "skrzynka"
+    },
+    {
+        "categoryId": "15",
+        "categoryName": "Chemia",
+        "categorySrc": "chemia"
+    },
+    {
+        "categoryId": "16",
+        "categoryName": "Wiedza ogólna",
+        "categorySrc": "wiedza ogolna"
+    },
+    {
+        "categoryId": "17",
+        "categoryName": "WoS",
+        "categorySrc": "wos"
+    }
+    
+]

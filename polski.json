@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "4",
+        "questionCategoryName": "Polski",
+        "questionId": "4.0",
+        "questionText": "Ten pisarz pochodzi z epoki romantyzmu. W swoich dziełach opisywał Polskę i jej sytuację w Europie. Kojarzymy go z krytyki Juliusza Słowackiego. O kim mowa?",
+        "questionAnswer": "Adam Mickiewicz"
+    },
+    {
+        "questionCategoryId": "4",
+        "questionCategoryName": "Polski",
+        "questionId": "4.1",
+        "questionText": "Podczas jakiej epoki powstała 'Rozmowa Mistrza Polikarpa ze śmiercią'?",
+        "questionAnswer": "Średniowiecza"
+    }
+]

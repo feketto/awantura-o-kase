@@ -1,0 +1,17 @@
+[
+    {
+        "questionCategoryId": "3",
+        "questionCategoryName": "Sport",
+        "questionId": "3.0",
+        "questionText": "Jak nazywa się ten sportowiec?",
+        "imagePath": "img/Stoch.jpg",
+        "questionAnswer": "Kamil Stoch"
+    },
+    {
+        "questionCategoryId": "3",
+        "questionCategoryName": "Sport",
+        "questionId": "3.1",
+        "questionText": "Jaki kraj wygrał mistrzostwa świata w piłce nożnej w 1950r.?",
+        "questionAnswer": "Urugwaj"
+    }
+]

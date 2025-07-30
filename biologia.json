@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "1",
+        "questionCategoryName": "Biologia",
+        "questionId": "1.0",
+        "questionText": "To regulowana genetycznie, zaprogramowana śmierć komórki. Umożliwia ona m.in. likwidację uszkodzonych komórek oraz odpowiednie formowanie narządów i części ciała. Jak nazywa się opisany proces?",
+        "questionAnswer": "Apoptoza"
+    },
+    {
+        "questionCategoryId": "1",
+        "questionCategoryName": "Biologia",
+        "questionId": "1.1",
+        "questionText": "Do jakiego rzędu zaliczamy chrząszcze?",
+        "questionAnswer": "Owadów"
+    }
+]

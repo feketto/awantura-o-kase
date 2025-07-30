@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "5",
+        "questionCategoryName": "Geografia",
+        "questionId": "5.0",
+        "questionText": "Stolicą jakiego azjatyckiego państwa jest Baku?",
+        "questionAnswer": "Azerbejdżanu"
+    },
+    {
+        "questionCategoryId": "5",
+        "questionCategoryName": "Geografia",
+        "questionId": "5.1",
+        "questionText": "Jaki jest najwyższy szczyt Bieszczad?",
+        "questionAnswer": "Tamica"
+    }
+]

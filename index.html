@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awantura o kase!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e1106258ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="hero-shadow"></div>
+    <header class="header">
+        <div class="container">
+           <div class="header__row">
+                <button class="header__info-btn game__btn" title="Instrukcja"><i class="fas fa-info"></i></button>
+           </div>
+        </div>
+    </header>
+    <section class="game">
+        <div class="container">
+            <div class="game__row">
+                <div class="game__question-panel">
+                    <div class="game__category-box">
+                        <h3 class="game__category-title"><i class="fas fa-sitemap"></i> Kategoria:</h3>
+                        <p class="game__category"> </p>
+                        <input id="categoryInput" placeholder="Kategoria">
+                        <button class="game__category-btn game__btn">Wybierz kategorię</button>
+                    </div>
+                    <div class="game__question-box">
+                        <h3 class="game__question-title"><i class="fas fa-question"></i> Pytanie:</h3>
+                        <p class="game__question">...</p>
+                    </div>
+                </div>
+                <div class="game__fields-panel">
+                    <div class="game__fields-box">
+                        <div class="game__auction-box">
+                            <h3 class="game__auction-title">licytacja</h3>
+                            <div class="game__auction-fields">
+                                <input type="number" id="stawkaNiebiescy" class="game__auction-field game__auction-field--blue game__auction-field--disabled" min="200" step="100" disabled>
+                                <input type="number" id="stawkaZieloni" class="game__auction-field game__auction-field--green game__auction-field--disabled" min="200" step="100" disabled>
+                                <input type="number" id="stawkaCzerwoni" class="game__auction-field game__auction-field--red game__auction-field--disabled" min="200" step="100" disabled>
+                                <input type="number" id="stawkaZolci" class="game__auction-field game__auction-field--yellow game__auction-field--disabled" min="200" step="100" disabled>
+                            </div>
+                        </div>
+                        <div class="game__balance-box">
+                            <h3 class="game__balance-title">stan konta</h3>
+                            <div class="game__balance-fields">
+                                <p type="number" class="game__balance-field game__balance-field--blue">5000</p>
+                                <p type="number" class="game__balance-field game__balance-field--green">5000</p>
+                                <p type="number" class="game__balance-field game__balance-field--red">5000</p>
+                                <p type="number" class="game__balance-field game__balance-field--yellow">5000</p>
+                            </div>
+                            <div class="game__balance-adjustments">
+                                <div class="balance-adjust">
+                                    <input type="number" class="balance-adjustment" data-team="blue" placeholder="Kwota">
+                                    <button class="balance-add team-blue">+</button>
+                                    <button class="balance-subtract team-blue">-</button>
+                                </div>
+                                <div class="balance-adjust">
+                                    <input type="number" class="balance-adjustment" data-team="green" placeholder="Kwota">
+                                    <button class="balance-add team-green">+</button>
+                                    <button class="balance-subtract team-green">-</button>
+                                </div>
+                                <div class="balance-adjust">
+                                    <input type="number" class="balance-adjustment" data-team="red" placeholder="Kwota">
+                                    <button class="balance-add team-red">+</button>
+                                    <button class="balance-subtract team-red">-</button>
+                                </div>
+                                <div class="balance-adjust">
+                                    <input type="number" class="balance-adjustment" data-team="yellow" placeholder="Kwota">
+                                    <button class="balance-add team-yellow">+</button>
+                                    <button class="balance-subtract team-yellow">-</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game__jackpot-box">
+                        <div class="game__jackpot-adjust">
+                            <input type="number" id="jackpotAdjustment" class="game__jackpot-input" placeholder="Kwota">
+                            <button class="game__jackpot-add game__btn">+</button>
+                            <button class="game__jackpot-subtract game__btn">-</button>
+                        </div>
+                        <button class="game__clear-jackpot-btn game__btn game__btn--hidden">Wyczyść pulę</button>
+                        <h3 class="game__jackpot-title">pula</h3>
+                        <p class="game__jackpot">0</p>
+                    </div>
+                    </div>
+                </div>
+                        <div class="game__question-btns">
+                            <button class="game__question-btn game__btn game__btn--disabled" disabled>Losuj pytanie</button>
+                            <button class="game__question-btn game__question-btn-answer game__btn  game__btn--disabled" disabled>Sprawdź odpowiedź</button>
+                        </div>
+                <div class="game__buttons-panel">
+                    <div class="game__buttons-box">
+                        <button class="game__good-answer-btn game__btn" disabled>Dobra odpowiedź</button>
+                        <button class="game__wrong-answer-btn game__btn" disabled>Zła odpowiedź</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="answer answer--hidden">
+        <div class="container">
+            <div class="answer__box">
+                <p class="answer__text">Odpowiedź: </p>
+                <button class="answer__btn game__btn"><i class="fas fa-chevron-up"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="start">
+        <div class="container">
+            <div class="start__row">
+                <p class="start__small-txt">Gra dostępna wyłącznie na ekranach o szerokośći większej niż 991px.</p>
+                <p class="start__info-title">Awantura o Chelmon</p>
+                <ol class="start__info-list">
+                    <li class="start__info-list-item">test</li>
+                </ol>
+                <div class="start__buttons">
+                    <button class="start__play-btn game__btn">Przejdź do gry</button>
+                    <button class="start__new-game-btn game__btn game__btn--disabled">Nowa gra</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js" type="text/javascript"></script> 
+</body>
+</html>

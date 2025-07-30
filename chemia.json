@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "15",
+        "questionCategoryName": "Chemia",
+        "questionId": "15.0",
+        "questionText": "Jaki jest wzór chemiczny ozonu?",
+        "questionAnswer": "O3"
+    },
+    {
+        "questionCategoryId": "15",
+        "questionCategoryName": "Chemia",
+        "questionId": "15.1",
+        "questionText": "Jaki alkan zawiera 2 atomy węgla?",
+        "questionAnswer": "Etan"
+    }
+]

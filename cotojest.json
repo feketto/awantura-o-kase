@@ -1,0 +1,24 @@
+[
+    {
+        "questionCategoryId": "8",
+        "questionCategoryName": "Co to jest?",
+        "questionId": "8.0",
+        "questionText": "Co to jest?",
+        "questionAnswer": "."
+    },
+    {
+        "questionCategoryId": "8",
+        "questionCategoryName": "Co to jest?",
+        "questionId": "8.1",
+        "questionText": "Co to jest?",
+        "questionAnswer": "."
+    },
+    {
+        "questionCategoryId": "8",
+        "questionCategoryName": "Co to jest?",
+        "questionId": "8.2",
+        "questionText": "Co to jest?",
+        "questionAnswer": "."
+    }
+    
+]

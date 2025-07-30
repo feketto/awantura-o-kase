@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "12",
+        "questionCategoryName": "Matematyka",
+        "questionId": "12.0",
+        "questionText": "Gospodarstwo posiada dużo zwierząt. W sumie mają one 24 głowy i 84 łapy. Zwierząt czworonożnych jest trzy razy tyle co zwierząt dwunożnych. Ile zwierząt czworonożnych żyje w gospodarstwie?",
+        "questionAnswer": "18"
+    },
+    {
+        "questionCategoryId": "12",
+        "questionCategoryName": "Matematyka",
+        "questionId": "12.1",
+        "questionText": "Bułka z szynką kosztuje 6,40zł. Szynka jest droższa od bułki o 6zł. Ile kosztuje bułka?",
+        "questionAnswer": "20gr"
+    }
+]

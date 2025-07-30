@@ -1,0 +1,18 @@
+[
+    {
+        "questionCategoryId": "7",
+        "questionCategoryName": "Wędkarstwo",
+        "questionId": "7.0",
+        "questionText": "Co to za ryba?",
+        "imagePath": "img/sum.jpg",
+        "questionAnswer": "Sum"
+    },
+    {
+        "questionCategoryId": "7",
+        "questionCategoryName": "Wędkarstwo",
+        "questionId": "7.1",
+        "questionText": "Jakie jest rozwinięcie skrótu przedstawionego na ilustracji?",
+        "imagePath": "img/pzw.jpg",
+        "questionAnswer": "Polski Związek Wędkarski"
+    }
+]

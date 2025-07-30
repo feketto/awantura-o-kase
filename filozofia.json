@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "10",
+        "questionCategoryName": "Filozofia",
+        "questionId": "10.0",
+        "questionText": "Kim z zawodu był św. Łukasz, Ewangelista?",
+        "questionAnswer": "Lekarzem"
+    },
+    {
+        "questionCategoryId": "10",
+        "questionCategoryName": "Filozofia",
+        "questionId": "10.1",
+        "questionText": "Jak nazywał się tracki śpiewak i poeta, który zstąpił do Hadesu by uratować swoją żonę?",
+        "questionAnswer": "Orfeusz"
+    }
+]

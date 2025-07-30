@@ -1,0 +1,16 @@
+[
+    {
+        "questionCategoryId": "17",
+        "questionCategoryName": "WoS",
+        "questionId": "17.0",
+        "questionText": "Ile trwa kadencja prezydenta RP?",
+        "questionAnswer": "5 lat"
+    },
+    {
+        "questionCategoryId": "17",
+        "questionCategoryName": "WoS",
+        "questionId": "17.1",
+        "questionText": "Ile Europosłów zasiada w parlamencie europejskim? Można pomylić się o 30.",
+        "questionAnswer": "720"
+    }
+]

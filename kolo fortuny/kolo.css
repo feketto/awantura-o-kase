@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+  display: grid;
+  justify-content: center;
+}
+
+@-webkit-keyframes jolt {
+  from {
+    transform: translate(-50%, -16px) rotate(150deg);
+  }
+  to {
+    transform: translate(-50%, -16px) rotate(180deg);
+  }
+}
+@keyframes jolt {
+  from {
+    transform: translate(-50%, -16px) rotate(150deg);
+  }
+  to {
+    transform: translate(-50%, -16px) rotate(180deg);
+  }
+}
+.casing {
+  margin-top: 100px;
+  margin-left: 480px;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border: 10px solid black;
+  border-radius: 1000px;
+  box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Ensures elements inside don't overflow */
+}
+.casing .wheel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 1000px;
+  cursor: pointer;
+  z-index: 3; /* Makes sure the wheel is above the segments */
+}
+.casing .wheel.rotating {
+  cursor: initial;
+}
+.casing .wheel .cap {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  width: 45px;
+  height: 45px;
+  border-radius: 1000px;
+  background-color: black;
+  border: 2px solid white;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  z-index: 3; /* Ensures the cap is above the wheel segments */
+}
+.casing .wheel .center {
+  position: absolute;
+  top: 400px;
+  left: 420px;
+  z-index: 1; /* Behind the cap */
+}
+.casing .wheel .center .segment {
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  transform-origin: 50% 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 0; /* Behind the wheel's border */
+}
+.casing .wheel .center .txt {                 /*czcionka*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 390px;
+  color: white;
+  transform: translate(-50%, -16px) rotate(180deg);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 180;
+  font-style: normal;
+  text-shadow: 0 0 3px black;
+  z-index: 0; /* Behind the wheel's border */
+}
+.casing .wheel .center .divider {
+  position: absolute;
+  height: 500px;
+  top: 0;
+  left: 0;
+  width: 5px;
+  background-color: black;
+  transform-origin: 50% 0;
+  z-index: 0; /* Behind the wheel's border */
+}
+.casing .wheel .center .divider::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 1000px;
+  background-color: white;
+  left: 0;
+  bottom: 2px;
+  transform: translateX(-1px);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 3; /* Behind the wheel's border */
+}
+.casing .pin {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: 400px;
+  transform: translate(-50%, -16px) rotate(180deg);
+  transform-origin: 50%, 4px;
+  width: 0px;
+  height: 0px;
+  color: white;
+  border-style: solid;
+  border-width: 0 15px 25px 15px;
+  border-color: transparent transparent white transparent;
+  border-radius: 4px;
+  z-index: 3; /* Ensure pin is above the wheel */
+}
+.casing .pin.jolt {
+  -webkit-animation: jolt 250ms ease-out forwards;
+  animation: jolt 250ms ease-out forwards;
+}

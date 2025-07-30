@@ -1,0 +1,17 @@
+[
+    {
+        "questionCategoryId": "13",
+        "questionCategoryName": "Fizyka",
+        "questionId": "13.0",
+        "questionText": "Kto to jest?",
+        "imagePath": "img/Isaac.jpg",
+        "questionAnswer": "Isaac Newton"
+    },
+    {
+        "questionCategoryId": "13",
+        "questionCategoryName": "Fizyka",
+        "questionId": "13.1",
+        "questionText": "W jakiej jednostce w układzie SI wyrażana jest praca?",
+        "questionAnswer": "J (dżul)"
+    }
+]

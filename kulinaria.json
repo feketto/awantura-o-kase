@@ -1,0 +1,17 @@
+[
+    {
+        "questionCategoryId": "6",
+        "questionCategoryName": "Kulinaria",
+        "questionId": "6.0",
+        "questionText": "Składnikami na jaki sos są masło klarowane, żółtka i cytryna, czasem z dodatkiem białego wina lub octu?",
+        "questionAnswer": "Sos holenderski"
+    },
+    {
+        "questionCategoryId": "6",
+        "questionCategoryName": "Kulinaria",
+        "questionId": "6.1",
+        "questionText": "Potrawą tradycyjną jakiego kraju jest beszbarmak?",
+        "imagePath": "img/beszbarmak.jpg",
+        "questionAnswer": "Kirgistan"
+    }
+]
