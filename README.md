@@ -1,7 +1,19 @@
 <h1>Awantura o kase</h1>
 
+
+Implementacja polskiej gry telewizyjnej z użyciem JS i HTML
+
+Pozwala na rozgrywkę wieloosobową, po zmianie treści pytań można dostosować grę do swoich potrzeb
+
+Widok z poziomu hosta
+
+---
 Program zbudowany na bazie pracy Davincin
+
 https://github.com/Davincin/awantura-o-kase
+
+
+
 
 ---
 
