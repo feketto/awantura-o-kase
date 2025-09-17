@@ -1,7 +1,7 @@
-<h1>Awantura o kase</h1>
+<h1>Awantura o kasę</h1>
 
 
-Implementacja polskiej gry telewizyjnej z użyciem JS i HTML
+Implementacja polskiej gry telewizyjnej "Awantura o kasę" z użyciem JS i HTML
 
 Pozwala na rozgrywkę wieloosobową, po zmianie treści pytań można dostosować grę do swoich potrzeb
 
